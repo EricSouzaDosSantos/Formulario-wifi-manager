@@ -1,0 +1,403 @@
+/* estilização do cabeçalho */
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 8vh;
+    /* margin-bottom: 30px; */
+}
+
+.nav-list li h1 {
+    font-size: 2rem;
+}
+
+/* estilização da main */
+.main-home {
+    display: flex;
+    justify-content: center;
+}
+
+/* estilização da section */
+.section-form {
+    display: flex;
+    flex-direction: column;
+    background-color: #EEEEEE;
+    width: 70%;
+    height: 150vh;
+    padding-top: 30px;
+
+}
+
+/* estilização do formulario de autenticação */
+.auth-form {
+    height: 20vh;
+    margin-bottom: 10px;
+}
+
+.div-form {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    height: 100%;
+    margin: auto;
+}
+
+.box-auth {
+    text-align: center;
+    padding: 7px;
+    font-size: 1.5rem;
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    color: white;
+
+}
+
+.label-inputs-auth {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    /* margin-top: 15%; */
+}
+
+.box-input-auth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #D9D9D9;
+    height: 80%;
+    width: 65%;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    margin: 7px;
+    width: 60%;
+}
+
+.inputs input {
+    padding: 7px;
+    width: 70%;
+    /* border-radius: 10px; */
+}
+
+label {
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+input {
+    /* height: 30px; */
+    border: solid 1px #6d6d6d;
+    border-radius: 6px;
+    font-weight: medium;
+    caret-color: black;
+    text-indent: 5px;
+}
+
+input::placeholder {
+    color: #3c3c43;
+}
+
+input[type="number"] {
+    appearance: textfield;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    display: none;
+    margin: 0;
+}
+
+/* estilização do formulario de endereçamento */
+.address-form {
+    height: 30vh;
+}
+
+.inputs label{
+    display: none;
+}
+
+.box-label {
+    display: flex;
+    flex-direction: column;
+    height: 85%;
+    width: 30%;
+}
+
+.select-ip {
+    width: 70%;
+    border-radius: 6px;
+    height: 30px;
+    font-size: 1rem;
+}
+
+.box-address {
+    padding: 7px;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    color: white;
+}
+
+/* .box-input select{
+    width: 30%;
+    font-size: 1.1rem;
+} */
+.label-inputs-address {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding-top: 10%;
+}
+
+.box-input-address {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #D9D9D9;
+    height: 90%;
+    width: 65%;
+}
+
+/* estilização do formulario de operação */
+
+.operation-form {
+    height: 20vh;
+
+}
+
+.box-operation {
+    padding: 7px;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    color: white;
+}
+
+.label-inputs-operation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    /* padding-top: 5%; */
+}
+
+.box-input-operation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #D9D9D9;
+    height: 80%;
+    width: 65%;
+}
+
+.select-server {
+    width: 70%;
+    border-radius: 6px;
+    height: 30px;
+    font-size: 1rem;
+}
+
+/* estilização do formulario de configuração */
+
+.configuration-form {
+    height: 35vh;
+}
+
+.box-configuration {
+    padding: 7px;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    color: white;
+}
+
+.label-inputs-configuration {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding-top: 14%;
+}
+
+.box-input-configuration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #D9D9D9;
+    height: 90%;
+    width: 65%;
+}
+
+/* configuração do formulario do bluetooth */
+
+.bluetooth-form {
+    height: 25vh;
+}
+
+.box-bluetooth {
+    padding: 7px;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    color: white;
+}
+
+.label-inputs-bluetooth {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding-top: 25%;
+}
+
+.box-input-bluetooth {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #D9D9D9;
+    height: 90%;
+    width: 65%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.box-button {
+    display: flex;
+    justify-content: flex-end;
+    width: 75%;
+    height: 45px;
+    margin: auto;
+}
+
+.box-button button {
+    background-color: black;
+    color: white;
+    width: 25%;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    margin-right: 5%;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1100px) {
+    .section-form{
+        width: 85%;
+        height: 165vh;
+    }
+    form{
+        /* margin-bottom: 40px; */
+        margin-top: 40px;
+    }
+    .div-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+        height: 100%;
+        margin: auto;
+    }
+    .inputs label{
+        display: block;
+    }
+    .box-label{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 88%;
+    }
+
+    .label-inputs-auth {
+        display: none;
+    }
+    .label-inputs-address {
+        display: none;
+    }
+     .label-inputs-operation {
+        display: none;
+    }
+    .label-inputs-configuration {
+        display: none;
+    }
+    #labels-address{
+        display: none;
+    }
+    .label-inputs-bluetooth {
+        display: none;
+    }
+
+    .box-auth {
+        text-align: center;
+        font-size: 1.5rem;
+        width: 100%;
+        background-color: black;
+        color: white;
+    }
+
+    .box-input-auth{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .box-input-address{
+        width: 90%;
+        margin-bottom: 20px;
+
+    }
+    .box-input-operation{
+        width: 90%;
+        margin-bottom: 20px;
+
+    }
+    .box-input-configuration{
+        width: 90%;
+        height: 90%;
+        margin-bottom: 20px;
+    }
+    .box-input-bluetooth{
+        width: 90%;
+        margin-bottom: 20px;
+
+    }
+    .inputs {
+        width: 80%;
+    }
+    .inputs label{
+        width: 30%;
+    }
+    .inputs select{
+        margin-left: 30%;
+    }
+}

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style/reset.css">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <script src="assets/script/script.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li>
+                    <h1>Escola SENAI Anchieta</h1>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-home">
+
+        <section class="section-form" id="section-form">
+
+            <form class="auth-form">
+
+                <div class="div-form">
+
+                    <div class="box-label">
+
+                        <div class="box-auth">Autenticação</div>
+
+
+                    <div class="label-inputs-auth">
+
+                        <label for="login:">Login:</label>
+
+                        <label for="senha:">Senha:</label>
+
+
+                    </div>
+
+                </div>
+
+                    <div class="box-input-auth">
+
+                        <div class="inputs">
+                            <label for="login">Login:</label>
+                            <input type="text">
+                        </div>
+
+                        <div class="inputs">
+                            <label for="password">Senha:</label>
+                            <input type="password" name="senha" id="senha">
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </form>
+
+            <form class="address-form">
+
+                <div class="div-form">
+
+                    <div class="box-label">
+
+                        <div class="box-address">Endereçamento</div>
+
+
+                    <div class="label-inputs-address">
+
+                        <label for="address-ip">Endereço de IP:</label>
+
+                        <label for="Gateway">Gateway:</label>
+
+                        <label for="masc">Máscara de sub rede:</label>
+
+                    </div>
+
+                </div>
+
+
+                    <div class="box-input-address">
+
+                        <div class="inputs">
+                            <select name="select" id="select-ip" class="select-ip">
+                                <option value="Estático" selected>IP Dinâmico</option>
+                                <option value="Dinamico">IP Estático</option>
+                            </select>
+                        </div>
+
+
+                        <div class="inputs">
+                            <label for="">Endereço de IP: </label>
+                            <input type="text" name="address-ip">
+                        </div>
+
+                        <div class="inputs">
+                            <label for="">Gateway:</label>
+                            <input type="text" name="Gateway" id="gateway">
+                        </div>
+
+                        <div class="inputs">
+                            <label for="">Máscara de sub-rede:</label>
+                            <input type="text" name="masc">
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </form>
+
+            <form class="operation-form">
+
+                <div class="div-form">
+
+                    <div class="box-label">
+
+                        <div class="box-operation">Operação</div>
+
+
+                    <div class="label-inputs-operation">
+
+                        <label for="broke">Broke:</label>
+
+                    </div>
+
+                </div>
+
+                <div class="box-input-operation">
+
+                    <div class="inputs">
+                        <select name="select" id="select-server" class="select-server">
+                            <option value="HTTP" selected>Sevidor HTTP</option>
+                            <option value="MQTT">Servidor MQTT </option>
+                        </select>
+                    </div>
+
+                    <div class="inputs">
+                        <label for="">Broke: </label>
+                        <input type="text" name="broke">
+                    </div>
+
+                    </div>
+
+            </div>
+
+            </form>
+
+            <form class="configuration-form" id="configuration-form">
+
+                <div class="div-form">
+
+                    <div class="box-label">
+
+                        <div class="box-configuration">Configuração</div>
+
+
+                    <div class="label-inputs-configuration" id="labels-address">
+
+                        <label for="email">Email:</label>
+
+                        <label for="email">Senha:</label>
+
+                        <label for="email">Chave API:</label>
+
+                        <label for="email">URL do banco de dados:</label>
+
+
+                    </div>
+
+                </div>
+
+                <div class="box-input-configuration" id="inputs-configuration">
+
+                    <div class="inputs">
+                        <select name="select" id="select-database" class="select-server">
+                            <option value="true" selected="selected">Com banco de dados</option>
+                            <option value="false">Sem banco de dados</option>
+                        </select>
+                    </div>
+
+                    <div class="inputs" id="email-database">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email">
+                    </div>
+
+                    <div class="inputs" id="password-database">
+                        <label for="email">Senha:</label>
+                        <input type="password" name="password">
+                    </div>
+
+                    <div class="inputs" id="key-database">
+                        <label for="email">Chave API:</label>
+
+                        <input type="text" name="key">
+                    </div>
+
+                    <div class="inputs" id="url-database">
+                        <label for="email">URL do banco de dados:</label>
+                        <input type="email" name="url">
+                    </div>
+
+                    </div>
+
+            </div>
+
+            </form>
+
+            <form class="bluetooth-form">
+
+                    <div class="div-form">
+    
+                        <div class="box-label">
+    
+                            <div class="box-bluetooth">Bluetooth</div>
+    
+    
+                        <div class="label-inputs-bluetooth">
+    
+                            <label for="name">Nome do dispositivo:</label>
+
+                            <label for="broke">Pin do dispositivo:</label>
+
+    
+                        </div>
+    
+                    </div>
+    
+                    <div class="box-input-bluetooth">
+    
+                        <div class="inputs">
+                            <select name="select" id="select-bluetooth" class="select-server">
+                                <option value="Com" selected>Com Bluetooth</option>
+                                <option value="Sem">Sem Bluetooth</option>
+                            </select>
+                        </div>
+    
+                        <div class="inputs">
+                            <label for="">Nome do dispositivo:</label>
+                            <input type="text" name="name-bluetooth">
+                        </div>
+
+                        <div class="inputs">
+                            <label for="">PIN do dispositivo:</label>
+                            <input type="text" name="pin-bluetooth">
+                        </div>
+    
+                        </div>
+    
+                </div>
+    
+            </form>
+
+            <div class="box-button">
+                <button id="btn-submit">Enviar</button>
+            </div>
+
+        </section>
+
+    </main>
+</body>
+
+</html>
